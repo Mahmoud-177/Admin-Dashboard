@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.4s ease;
+}
+body{
+    font-family:"Nunito", sans-serif;
+    height: 100vh;
+    background-color: #5041BC;
+    overflow: hidden;
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: #5041BC;
+}
+.nav-bar a{
+    color: #fff;
+}
+.nav-bar{
+    background-color: #5041BC;
+    color: #fff;
+    height: 100%;
+    width: 300px;
+    padding: 20px
+}
+.cont{
+    height: 12%;
+}
+.logo{
+    position: relative;
+    margin-left: 30px;
+}
+.abs{
+    position: absolute;
+}
+.orange-circle{
+    background-color: #FF7F57;
+    clip-path: circle(20px);
+    width: 40px;
+    height: 50px;
+    left: 0;
+}
+.yellow-circle{
+    background-color: #FFC629;
+    clip-path: circle(25px);
+    width: 50px;
+    height: 50px;
+    top: 0;
+    left: 20px;
+}
+.name{
+    font-family: "Passion One", sans-serif;
+    font-size: 2.7rem;
+    top: 4px;
+    left: 30px;
+}
+.hr{
+    top: 80px;
+    border-bottom: 1px solid #8A7DD0;
+    width: 115%;
+    left: -30px;
+}
+.link{
+    margin: 20px auto;
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    font-size: 1.2rem;
+    user-select: none;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.link:hover {
+    background: #6a5acd;
+    color: #fff;
+    box-shadow: #00000067 0 0 14px 2px;
+}
+.link i{
+    font-size: 1.3rem;
+}
+.link.active{
+    background-color: #fff;
+    color: #000;
+    border-radius: 12px;
+    box-shadow: #00000067 0 0 14px 2px;
+}
+.sub-card{
+    margin: 100px auto;
+    background-color: #fff;
+    width: 90%;
+    height: 300px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.sub-card .img{
+    width: 70%;
+    margin: 20px auto;
+}
+.sub-card .img img{
+    width: 100%;
+}
+.upgrade{
+    background-color: #FF8057;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 24px;
+    margin: 20px auto;
+    display: block;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+.upgrade:hover{
+    background-color: #eb6c42;
+}
+.up-text{
+    color: #000;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 10px auto;
+    display: block;
+    width: fit-content;
+}
