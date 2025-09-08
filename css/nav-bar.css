@@ -139,6 +139,21 @@ a{
 .fade-in.in-active{
     animation: fadeInAnimation 1s forwards 0.3s;
 }
+.from-left{
+    transform: translateX(-90%);
+}
+.from-left.in-active{
+    animation: fromLeft 1s forwards 0.3s;
+
+}
+@keyframes fromLeft {
+    0%{
+        transform: translateX(-90%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
 @keyframes fadeInAnimation {
     0%{
         transform: translateY(10px);

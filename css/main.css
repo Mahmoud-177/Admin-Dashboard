@@ -11,6 +11,8 @@ header{
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    position: relative;
+    z-index: 999;
 }
 .over{
     font-size: 2rem;
@@ -326,9 +328,9 @@ canvas {
     border-radius: 20px;
     position: fixed;
     z-index: 1000;
-    right: 40px;
+    right: 0;
     background-color: #fff;
-    top: 90px;
+    top: 50px;
     width: 200px;
     overflow: hidden;
     height: 0;

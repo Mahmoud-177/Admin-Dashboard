@@ -7,7 +7,7 @@ user.addEventListener("click", _ => {
     arr.classList.toggle("flipped")
 })
 
-const elements = document.querySelectorAll(".fade-in")
+const elements = document.querySelectorAll(".from-left , .fade-in")
 
 const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
