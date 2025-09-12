@@ -97,6 +97,7 @@ input[type="search"]{
 }
 .user-name{
     color: #54657E;
+    user-select: none;
 }
 .arr{
     color: #5041BC;
@@ -222,7 +223,7 @@ input[type="search"]{
     bottom: -2px;
     left: 0;
     width: 0;
-    height: 2px;
+    height: 1px;
     background-color: #5041BC;
 }
 .data a:hover::after{
@@ -247,7 +248,7 @@ canvas {
     gap: 50px;
 }
 .target-card{
-    background-image: url("/imgs/bg.png");
+    background-image: url("/admin-dashboard/imgs/bg.png");
     background-blend-mode: multiply;
     background-color: #5041BC;
     height: 300px;
@@ -365,10 +366,7 @@ canvas {
     background-color: #EA8F95;
     color: #fff;
 }
-.arr{
-    transform-origin: bottom top;
-}
-.arr.flipped{
+.arr.flipped i{
     transform: rotate(180deg);
     margin-bottom: 5px;
 }
